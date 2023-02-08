@@ -7,8 +7,9 @@ legs = Category.create(category: "Legs")
 back = Category.create(category: "Back")
 abs = Category.create(category: "Abs")
 arms = Category.create(category: "Arms")
-flex = Category.create(category: "Flex")
 cardio = Category.create(category: "Cardio")
+flex = Category.create(category: "Flex")
+
 
 Exercise.create(name: "Push ups", note: "Can do on knees or toes", category_id: chest.id)
 Exercise.create(name: "Plank", note: "Can do on knees or toes", category_id: chest.id)
